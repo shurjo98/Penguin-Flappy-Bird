@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Learn Alphabets</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.3.1/p5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.2.0/addons/p5.sound.min.js"></script>
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+
+  <div class='spinner-wrapper'>
+    <div class="spinner"></div>
+  </div>
+
+
+  <!-- <script defer src=https://cdn.JsDelivr.net/npm/p5></script>
+    <script defer src=https://cdn.JsDelivr.net/npm/p5/lib/addons/p5.dom.min.js></script>
+    <script defer src=https://cdn.JsDelivr.net/npm/p5/lib/addons/p5.sound.min.js></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.3.1/p5.js" charset="utf-8"></script> -->
+  <script>
+    let spinnerWrapper = document.querySelector('.spinner-wrapper');
+
+    window.addEventListener('load', function() {
+      // spinnerWrapper.style.display = 'none';
+      console.log("loaded");
+      spinnerWrapper.parentElement.removeChild(spinnerWrapper);
+    });
+  </script>
+
+  <script src="index.js" charset="utf-8"></script>
+</body>
+
+</html>
